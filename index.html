@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="crud">
+<div class="head">
+<h1>CRUD System</h1>
+</div>
+
+<div class="in">
+
+  <label for=" ">Name</label>
+  
+  <label class="validation-error hide" id="fullNameValidationError">please enter name</label><br>
+    <input type="text" class="form-control" id="name" name="name"><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="salary">Salary</label><br>
+    <input type="number" id="salary" name="salary"><br>
+    <label for="city">City</label><br>
+    <input type="text" id="city" name="city"><br><br>
+    <input type="submit"  onclick="addPerson();" value="Submit" id="submit">
+</div>
+<div class="output">
+<table class="tablee">
+<thead class="y">
+<tr >
+<th>Name</th>
+<th>Email</th>
+<th>Salary</th>
+<th>City</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody id="tbody">
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<script src="all.min.js"></script>
+<script src="main.js" ></script>
+</body>
+</html>

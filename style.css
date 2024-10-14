@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color:rgb(153, 152, 152);
+}
+ 
+.head{
+text-align: center;
+  margin-top: 30px;  
+  margin-bottom: 10px;
+  
+border-bottom: 1.5px solid rgb(182, 181, 181);
+width: 100%;
+height: 60px;
+
+
+}
+.in{
+width: 45%;
+height: 300px;
+border-radius: 3%;
+padding-right: 20px;
+padding-left: 15px;
+margin-left: 400px;
+
+border: 3px solid;
+padding-top:10px ;
+
+
+}
+#name{
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+      margin: 4px 0;   
+    border-radius: 4.5px;
+    padding: 4px;
+    color: black;
+    margin-top: 6px;
+    
+}
+#email{
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 4.5px;
+    padding: 4px;
+    color: black;
+    margin-top: 7px;
+    
+}
+#salary{
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 4.5px;
+    padding: 4px;
+    color: black;
+    margin-top: 7px;
+}
+#city{
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 4.5px;
+    padding: 4px;
+    color: black;
+    margin-top: 7px;
+}
+#submit{
+background-color: black;
+color: white;
+border-radius: 6px;
+width: 30%;
+height: 35px;
+float: right;
+}
+.output{
+width:65%;
+height:150px;
+border: solid;
+margin-top: 20px;
+margin-left: 260px;
+
+}
+table{
+width: 90%;
+height: 30px;
+text-align: center;
+margin: 10px 0;
+
+margin-left: 50px;
+border-collapse: collapse;
+}
+td,th{
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px; 
+
+}
+ .y{
+background-color: #d1d1d1;
+} 
+
+tr:nth-child(even)  {
+  background-color: #d1d1d1;
+}
+
+#edit{
+width: 50px;
+}
+#delet{
+width: 50px;
+color: red;
+}
+  .hide{
+  display:none;
+}  
+label.validation-error{
+  color:   red;
+  margin-left: 5px;
+}
+
+
+
+
